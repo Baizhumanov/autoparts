@@ -1,0 +1,213 @@
+html, body {padding: 0; margin: 0;}
+body {
+	font-family: 'Poppins',
+	BlinkMacSystemFont,
+	Segoe UI,
+	Roboto,
+	Oxygen,
+	Ubuntu,
+	Cantarell,
+	Fira Sans,
+	Droid Sans,
+	Helvetica Neue,
+	sans-serif;
+	color: #343334;
+	background-color: #f9f9f9;
+}
+
+/*--------------------HEADER GO--------------------*/
+header {
+	background-image: url(images/bg3.png);
+	background-size: cover;
+	/*height: 70vh; */
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-attachment: fixed;
+	position: relative;
+	color: white;
+}
+
+.navbar {
+	border-bottom: 1px solid white;
+	padding: 0.8rem 2rem;
+}
+
+.nav { font-size: 1.1em; }
+
+header .navbar .name {
+	font-size: 1.2em;
+	font-weight: 500;
+	text-align: center;
+	color: #ffd571;
+}
+
+.navbar .button a {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	background-color: none;
+	border-radius: 5px;
+	border: 2px solid #0075F7;
+	color: #0075F7;
+	font-size: 1em;
+	user-select: none;
+	outline: none;
+	/*padding: 8px 20px;*/
+	margin: 0 auto;
+	font-weight: 500;
+}
+
+.nav a {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-size: 1em;
+	padding: 0.5rem 1.7rem;
+	user-select: none;
+	outline: none;
+	margin: 0 auto;
+	color: white;
+}
+
+.main-head {
+	height: 100%;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+
+.brand-title {
+	color: #ffd571;
+	font-size: 2.3rem;
+	font-weight: 700;
+}
+
+.brand-def {
+	font-size: 1.3em;
+}
+
+.hide {display: none;}
+/*--------------------HEADER END--------------------*/
+/*--------------------MAIN GO--------------------*/
+.row .title {
+	font-size: 2em;
+	text-align: center;
+	margin: 10px 0 20px;
+}
+
+.card {
+	/*width: 250px;
+	height: 250px;*/
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+	margin-bottom: 70px;
+	border-radius: 10px;
+	font-size: 1.2em;
+	text-align: center;
+	cursor: pointer;
+	padding: 0.5rem;
+	margin: 10px;
+}
+
+.card:hover {
+	box-shadow: 0px 10px 35px 0px rgba(105,180,250,1);
+	transition: 0.5s;
+}
+
+.card .icon {
+	width: 125px;
+	height: 125px;
+	/*border: 1px solid #2EBBB2;*/
+	border-radius: 10px;
+	margin: 25px auto 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.nth:nth-child(1) .icon {background-image: url(icons/audi.svg);}
+.nth:nth-child(2) .icon {background-image: url(icons/car1.svg);}
+.nth:nth-child(3) .icon {background-image: url(icons/toyota.svg);}
+.nth:nth-child(4) .icon {background-image: url(icons/hyundai.svg);}
+.nth:nth-child(5) .icon {background-image: url(icons/bmw.svg);}
+.nth:nth-child(6) .icon {background-image: url(icons/car.svg);}
+.nth:nth-child(7) .icon {background-image: url(icons/volkswagen.svg);}
+.nth:nth-child(8) .icon {background-image: url(icons/lexus.svg);}
+.nth:nth-child(9) .icon {background-image: url(icons/mazda.svg);}
+.nth:nth-child(10) .icon {background-image: url(icons/mitsubishi.svg);}
+.nth:nth-child(11) .icon {background-image: url(icons/chevrolet.svg);}
+.nth:nth-child(12) .icon {background-image: url(icons/ford.svg);}
+
+.bgadd {
+	background-image: url(images/oil.jpg);
+	background-size: cover;
+	/*height: 70vh; */
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-attachment: fixed;
+}
+
+.platform {
+	background-color: white;
+	border-radius: 10px;
+	padding: 1rem 2rem;
+}
+
+.text, .def, .text a {
+	/*border: 1px solid gold;*/
+}
+
+.text {
+	
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+	width: 100%;
+	padding: 50px;
+}
+
+.platform .title {
+	font-size: 1.6em;
+	color: #2EBBB2;
+}
+
+.platform .def {
+	font-size: 1.2em;
+}
+
+/*.platform a {
+	text-decoration: none;
+	display: block;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	color: #343334;
+	background-color: #2EBBB2;
+	font-size: 1.3em;
+	user-select: none;
+	outline: none;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+/*--------------------MAIN END--------------------*/
+/*--------------------FOOTER GO--------------------*/
+footer {
+	background-color: #262526;
+	color: white;
+}
+
+footer .name {
+	color: #2EBBB2;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+footer .add {
+	text-align: center;
+	font-size: 1.2em;
+}
+/*--------------------FOOTER END--------------------*/

@@ -1,0 +1,158 @@
+html, body {padding: 0; margin: 0;}
+
+body {
+	font-family: 'Poppins',
+	BlinkMacSystemFont,
+	Segoe UI,
+	Roboto,
+	Oxygen,
+	Ubuntu,
+	Cantarell,
+	Fira Sans,
+	Droid Sans,
+	Helvetica Neue,
+	sans-serif;
+	color: #343334;
+	background-color: #f9f9f9;
+}
+
+/*--------------------HEADER GO--------------------*/
+.navbar {
+	background-color: #232531;
+	padding: 0.8rem 2rem;
+}
+
+.nav { font-size: 1.1em; }
+
+.nav a {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-size: 1em;
+	padding: 0.5rem 1.7rem;
+	user-select: none;
+	outline: none;
+	margin: 0 auto;
+	color: white;
+}
+
+.navbar-dark a.main-link {
+	color: #ffd571;
+	font-weight: 600;
+	font-size: 1.2em;
+}
+
+a.reg {
+	color: #0075F7;
+	background: none;
+	padding: 5px 20px;
+	outline: none;
+	border-radius: 5px;
+	border: 2px solid #0075F7;
+}
+
+header input[type="submit"] {
+	font-size: 1.2em;
+	display: block;
+	text-decoration: none;
+	color: #E94D89; 
+	background: none;
+	padding: 6px 24px;
+	outline: none;
+	border-radius: 5px;
+	border: 2px solid #E94D89;
+}
+
+.hide {display: none !important;}
+/*--------------------HEADER END--------------------*/
+/*--------------------MAIN GO--------------------*/
+.title {
+	font-size: 2em;
+}
+/*--------------------MAIN - CARD GO--------------------*/
+.row .item {
+	border-radius: 10px;
+	height: 260px;
+	border: 2px solid #e8e8e8;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+}
+
+.row .selected {
+	background-color: #EEF5FF;
+	border-color: #0075F7;
+}
+
+.item .name {
+	text-align: center;
+	height: 50px;
+	max-height: 50px;
+	/*margin-bottom: 10px;*/
+	font-size: 1.2em;
+	font-weight: 500;
+	/*background-color: #232531;*/
+	color: #737994;
+	/*color: #ffffff;*/
+	color: #232531;
+	border-radius: 10px 10px 0 0;
+	padding: 5px 10px;
+}
+
+.item .content {
+	/*height: 100%;*/
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 10px;
+}
+
+.item .price {
+	font-size: 1.1em;
+}
+
+.item .count {
+	display: flex;
+	justify-content: center;
+}
+
+.count .text {
+	width: 50px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #e8ebfa;
+	color: #6d7fd3;
+	font-weight: 500;
+	font-size: 1.2em;
+	padding-bottom: 5px;
+	margin: 0 10px;
+}
+
+button {
+	text-decoration: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 0;
+	border-radius: 0;
+	background: none;
+	outline: none;
+}
+
+button img {
+	height: 20px;
+	width: 20px;
+	max-height: 20px;
+	max-width: 20px;
+}
+
+
+/*--------------------MAIN - CARD END--------------------*/
+/*--------------------MAIN - SUM GO--------------------*/
+.label {
+	font-size: 1.2em;
+	font-weight: 500;
+}
+/*--------------------MAIN - SUM END--------------------*/
